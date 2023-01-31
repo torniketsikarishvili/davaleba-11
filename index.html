@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="სარეგისტრაციო ფორმა">
+    <meta name="keywords" content="registration reception">
+    <meta name="author" content="John Doe">
+    <title>index</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="conteiner">
+
+        <div class="registrationform">
+            <h1>REGISTRATION</h1>
+
+        <form  class="form1" method="get">
+
+            <div class="nameemail">
+                
+            <label class="txt1" for="name">NAME</label>
+           <input class="name" type="text" id="name" name="saxeli" placeholder="name" required>
+
+            <label class="txt1" for="email">Email</label>
+           <input class="email" type="email" id="email" name="meili" placeholder="email">
+
+         </div>
+
+          <div class="malefemalediv">
+           <input type="radio" id="Male" name="male" value="Male">
+           <label class="txt2" for="Male"> Male</label>
+           
+           <input type="radio" id="Female" name="male" value="Female">
+           <label class="txt2" for="Female"> Female</label>
+        </div>
+
+        <div class="birthdiv">
+            <label class="txt3" for="fata">Data of birth</label>
+            <input type="date" id="date" name="data">
+
+        </div>
+           
+                <div class="country">
+            <select name="countries" id="">
+                 
+                
+                <option value="country" selected>country</option>
+                <option value="Georgia">Georgia</option>
+                <option value="German">  German</option>
+                <option value="Russia">Russia</option>
+            </select>
+
+        </div>
+
+
+         <div class="gold">
+          <input type="checkbox" id="Bronze" name="Bronze" value="Bronze">
+           <label class="txt1" for="Bronze"> Bronze</label>
+           
+           <input  type="checkbox" id="Silver" name="Silver" value="Silver">
+           <label class="txt1" for="Silver"> Silver</label>
+
+           <input type="checkbox" id="Gold" name="Gold" value="Gold">
+           <label class="txt1" for="Gold"> Gold</label>
+
+        </div>
+
+
+        <div class="sendcansel">
+
+            <input class="reset" type="reset" value="CANSEL">
+            <input class="confirm" type="submit" value="CONFIRM">
+
+        </div>
+
+        </form>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>
